@@ -3,3 +3,17 @@ $git init
 
 to add a file to a git repository
 $git add
+
+to check the status or commitment of our file
+$ git status
+
+to start tracking the change in our repository
+
+$git add file_name
+
+>to commit our change
+
+$git commit -m"the commitment message"
+
+>to see what commit was made
+$git log
