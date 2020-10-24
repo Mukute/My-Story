@@ -1,0 +1,5 @@
+to initialise github
+$git init
+
+to add a file to a git repository
+$git add
