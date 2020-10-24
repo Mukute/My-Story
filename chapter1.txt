@@ -11,9 +11,24 @@ to start tracking the change in our repository
 
 $git add file_name
 
->to commit our change
+>to commit our change. the message here is too important to remember each change
 
 $git commit -m"the commitment message"
 
 >to see what commit was made
 $git log
+
+>to add all the file for tracking in git. this is the staging area
+$git add .
+
+>to get back to the previous version
+$git checkout file_name
+
+> to check the different of changes in the file
+$git diff file_name
+
+>to create a remote (on internet) repository. Origin is the name by convention or
+$git remote add origin + git_url_of_the_repos
+
+> to push our local repository to the remote repository. Master here is the main branch or master branch
+$git push -u origin master
